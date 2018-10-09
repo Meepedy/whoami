@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "no-console": "off",
+    "indent": [ "error", 2, { "SwitchCase": 1 }],
+    "quotes": [ "error", "single", { "allowTemplateLiterals": true } ],
+    "semi": ["error", "always"],
+    "linebreak-style": [ "error", "unix" ]
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true,
+    "jasmine": true
+  },
+
+  "parserOptions":{
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true,
+      "impliedStrict": true
+    }
+  },
+
+  "extends": "eslint:recommended"
+}
