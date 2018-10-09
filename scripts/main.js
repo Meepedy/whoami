@@ -14,9 +14,9 @@ var app = app || {};
         console.log(`Orientation: ${char.orientation}`);
         console.log(`Attitude: ${char.attitude}`);
         console.log('Traits: ');
-        for (trait in char.psychologicalTraits) {
+        char.traits.forEach(trait => {
             console.log(`- ${trait}`);
-        }
+        });
         console.log(`Hobby: ${char.hobby}`);
         console.log(`Motivation: ${char.motivation}`);
     }
