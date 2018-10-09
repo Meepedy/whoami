@@ -63,7 +63,7 @@ var data = data || {};
          'none',
      ];
 
-     module.orientation = [
+     module.orientations = [
          'straight',
          'gay',
          'bi',

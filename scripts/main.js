@@ -1,8 +1,8 @@
 'use strict';
 
-var app = app || {}
+var app = app || {};
 
-(function(module) {
+(function(module){
     module.displayCharacter = function(char) {
         console.log(`Hair: ${char.hairColor}, ${char.hairStyle}`);
         console.log(`Eyes: ${char.eyeColor}`);
@@ -29,8 +29,8 @@ var app = app || {}
     }
     
     module.main = function() {
-        let character = new Character();
+        let character = new app.Character();
     
-        displayCharacter(character);
+        module.displayCharacter(character);
     }
 })(app);
