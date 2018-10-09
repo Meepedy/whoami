@@ -8,6 +8,8 @@ function Character() {
     this.hairStyle = app.randomItem(data.hairStyles);
     this.eyeColor = app.randomItem(data.eyeColors);
     this.faceShape = app.randomItem(data.faceShapes);
+    this.height = Math.floor(Math.random() * 80);
+    this.weight = Math.floor(Math.random * 300);
     this.race = app.randomItem(data.races);
     this.gender = app.randomItem(data.genders);
     this.orientation = app.randomItem(data.orientations);
