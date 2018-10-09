@@ -15,3 +15,9 @@ function displayCharacter(char) {
     console.log(`Hobby: ${char.hobby}`);
     console.log(`Motivation: ${char.motivation}`);
 }
+
+function main() {
+    let character = new Character();
+
+    displayCharacter(character);
+}
