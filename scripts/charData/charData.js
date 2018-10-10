@@ -28,7 +28,7 @@ var data = data || {};
     'bobbed',
     'ponytail',
     'topknot',
-    'wait-length',
+    'waist-length',
   ];
 
   module.eyeColors = [
