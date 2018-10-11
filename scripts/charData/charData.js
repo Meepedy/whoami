@@ -28,7 +28,7 @@ var data = data || {};
     'bobbed',
     'ponytail',
     'topknot',
-    'wait-length',
+    'waist-length',
   ];
 
   module.eyeColors = [
@@ -39,6 +39,7 @@ var data = data || {};
     'green',
     'emerald',
     'silver',
+    'heterochromia',
   ];
 
   module.faceShapes = [
