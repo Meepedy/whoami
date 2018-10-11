@@ -15,6 +15,7 @@ var data = data || {};
     'light brown',
     'white',
     'grey',
+    'silver'
   ];
 
   module.hairStyles = [
@@ -22,8 +23,8 @@ var data = data || {};
     'short-cropped',
     'shoulder-length',
     'long',
-    'spikey',
-    'wavey',
+    'spiky',
+    'wavy',
     'cornrows',
     'bobbed',
     'ponytail',
@@ -67,7 +68,7 @@ var data = data || {};
   module.orientations = [
     'straight',
     'gay',
-    'bi',
+    'bi'
   ];
 
   module.attitudes = [
@@ -81,6 +82,7 @@ var data = data || {};
     'fair',
     'just',
     'religious',
+    'humble'
   ];
 
   module.hobbies = [
@@ -91,6 +93,15 @@ var data = data || {};
     'fishing',
     'hunting',
     'painting',
+    'pottery',
+    'needlecraft',
+    'archery',
+    'knucklebones',
+    'chess',
+    'performance',
+    'stargazing',
+    'gambling',
+    'reading'
   ];
 
   module.traits = [
@@ -102,6 +113,11 @@ var data = data || {};
     'trusting',
     'meticulous',
     'fierce',
+    'unkempt',
+    'adventurous',
+    'charismatic',
+    'good-natured',
+    'passionate'
   ];
 
   module.motivations = [
@@ -111,6 +127,11 @@ var data = data || {};
     'family',
     'friends',
     'revenge',
+    'curiousity',
+    'honour',
+    'idealism',
+    'independence',
+    'acceptance'
   ];
 
 })(data);
