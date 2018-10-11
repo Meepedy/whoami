@@ -39,6 +39,7 @@ var data = data || {};
     'green',
     'emerald',
     'silver',
+    'heterochromia',
   ];
 
   module.faceShapes = [
