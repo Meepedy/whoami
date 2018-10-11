@@ -15,7 +15,6 @@ body{
      /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
 }
 .container {
     flex: 1;
@@ -56,6 +55,7 @@ button {
     background-color: #00838f;
     border-radius: 5px;
     padding: 5px 10px;
+    margin-bottom: 5px;
 }
 
 footer {
