@@ -30,6 +30,10 @@ var data = data || {};
     'ponytail',
     'topknot',
     'waist-length',
+    'buns',
+    'braid',
+    'mullet',
+    'pigtails'
   ];
 
   module.eyeColors = [
@@ -40,7 +44,7 @@ var data = data || {};
     'green',
     'emerald',
     'silver',
-    'heterochromia',
+    'heterochromia'
   ];
 
   module.faceShapes = [
@@ -49,6 +53,8 @@ var data = data || {};
     'round',
     'chiseled',
     'square',
+    'heart',
+    'triangle'
   ];
 
   module.races = [
@@ -56,13 +62,13 @@ var data = data || {};
     'elf',
     'dwarf',
     'goblin',
-    'orc',
+    'orc'
   ];
 
   module.genders = [
     'male',
     'female',
-    'none',
+    'none'
   ];
 
   module.orientations = [
@@ -117,7 +123,8 @@ var data = data || {};
     'adventurous',
     'charismatic',
     'good-natured',
-    'passionate'
+    'passionate',
+    'loyal'
   ];
 
   module.motivations = [
@@ -131,7 +138,8 @@ var data = data || {};
     'honour',
     'idealism',
     'independence',
-    'acceptance'
+    'acceptance',
+    'freedom'
   ];
 
 })(data);
