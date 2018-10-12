@@ -56,6 +56,8 @@ button {
     border-radius: 5px;
     padding: 5px 10px;
     margin-bottom: 5px;
+    font-size: 11pt;
+    color: #ffff;
 }
 
 footer {
