@@ -158,12 +158,15 @@ var data = data || {};
     'fair',
     'just',
     'religious',
-    'humble'
+    'humble',
+    'honest'
   ];
 
   module.hobbies = [
     'whittling',
     'carving',
+    'cooking',
+    'calligraphy',
     'darts',
     'tournaments',
     'fishing',
@@ -173,17 +176,21 @@ var data = data || {};
     'needlecraft',
     'archery',
     'knucklebones',
+    'origami',
     'chess',
     'performance',
     'stargazing',
+    'shopping',
     'gambling',
     'reading'
   ];
 
   module.traits = [
+    'active',
     'arrogant',
     'anxious',
     'envious',
+    'dedicated',
     'stable',
     'brave',
     'trusting',
@@ -194,7 +201,8 @@ var data = data || {};
     'charismatic',
     'good-natured',
     'passionate',
-    'loyal'
+    'loyal',
+    'stoic'
   ];
 
   module.motivations = [
@@ -205,11 +213,14 @@ var data = data || {};
     'friends',
     'revenge',
     'curiousity',
+    'competition',
     'honour',
     'idealism',
     'independence',
     'acceptance',
-    'freedom'
+    'freedom',
+    'grades',
+    'praise'
   ];
 
 })(data);
