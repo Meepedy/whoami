@@ -57,6 +57,37 @@ var data = data || {};
     'triangle'
   ];
 
+  module.features = [
+    'none',
+    'freckles',
+    'birthmark on left cheek',
+    'birthmark near lips',
+    'birthmark near left eye',   
+    'scar on forehead',
+    'burn marks on right cheek',
+    'burn marks on hands',
+    'scar on the chest',
+    'scar across left eye',
+    'dragon tattoo on the back',
+    'bird tattoo on right shoulder',
+    'snake tattoo',
+    'ancor tattoo',
+    'small raven tattoo',
+    'arrow tattoo',
+    'spikes tattoo',
+    'flowers tattoo',
+    'rune tattoo',
+    'burnt mark on left shoulder',
+    'cut off ear',
+    'broken nose',
+    'long sharp nails',
+    'magic seal on the chest',
+    'pierced brow',
+    'pierced ears',
+    'pierced nose',
+    'pierced tongue'
+  ];
+
   module.races = [
     {
       name: 'human',
@@ -160,6 +191,56 @@ var data = data || {};
     'religious',
     'humble',
     'honest'
+  ];
+
+  module.backgrounds = [
+    'hunter',
+    'warrior',
+    'guard',
+    'sellsword',
+    'alchemist',
+    'healer',
+    'sailor',
+    'thief',
+    'merchant',
+    'adventurer',
+    'herder',
+    'builder',
+    'blacksmith',
+    'artist',
+    'lawyer',
+    'bard',
+    'gold digger',
+    'treasure hunter',
+    'brewer',
+    'brigand',
+    'butcher',
+    'fence',
+    'criminal mastermind',
+    'carpenter',
+    'mage',
+    'warlock',
+    'necromancer',
+    'cartographer',
+    'courtier',
+    'gladiator',
+    'innkeeper',
+    'jailer',
+    'prisoner',
+    'dancer',
+    'historian',
+    'mayor',
+    'torturer',
+    'scavenger',
+    'pirate',
+    'herbalist',
+    'counselor',
+    'beggar',
+    'aristocrat',
+    'diplomat',
+    'farmer',
+    'scholar',
+    'slave'
   ];
 
   module.hobbies = [

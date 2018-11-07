@@ -11,6 +11,7 @@ var data = data || {};
     this.faceShape = app.randomItem(data.faceShapes);
     this.race = app.randomItem(data.races);
     this.gender = app.randomItem(data.genders);
+    this.feature = app.randomItem(data.features);
     this.height =
       Math.floor(
         Math.random()
@@ -24,6 +25,7 @@ var data = data || {};
       );
     this.orientation = app.randomItem(data.orientations);
     this.attitude = app.randomItem(data.attitudes);
+    this.background = app.randomItem(data.backgrounds);
     this.hobby = app.randomItem(data.hobbies);
     this.traits = [app.randomItem(data.traits), app.randomItem(data.traits)];
     this.motivation = app.randomItem(data.motivations);
