@@ -9,7 +9,9 @@ var data = data || {};
     'brown',
     'auburn',
     'blonde',
+    'dirty blonde',
     'red',
+    'orange',
     'jet black',
     'dark brown',
     'light brown',
@@ -33,7 +35,9 @@ var data = data || {};
     'buns',
     'braid',
     'mullet',
-    'pigtails'
+    'pigtails',
+    'afro',
+    'dreads'
   ];
 
   module.eyeColors = [
@@ -163,6 +167,21 @@ var data = data || {};
       },
       minBmi: 25,
       maxBmi: 41
+    },
+    {
+      name: 'undead',
+      minHeight: {
+        'male' : 5*12,
+        'female': 4*12+7,
+        'none': 4*12+7
+      },
+      maxHeight: {
+        'male': 6*12+6,
+        'female': 6*12+1,
+        'none': 6*12+6
+      },
+      minBmi: 18,
+      maxBmi: 30
     }
   ];
 
