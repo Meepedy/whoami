@@ -10,7 +10,7 @@ html, body {
 }
 body{
     font-family: Roboto;
-    background-color: #00838f;
+    background-color: lightgrey;
     display: flex;
      /* flex-direction: column; */
     justify-content: center;
@@ -20,9 +20,8 @@ body{
     flex: 1;
     max-width: 960px;
     margin: 10px;
-    text-align: center;   
-    color: rgba(70,70,70); 
-    background-color: #E1E2E1;
+    text-align: center;    
+    background-color: darkgray;
     text-shadow: 1px 1px 1px rgba(250, 250, 250, 0.7); 
     border-radius: 5px;
     padding: 20px 100px;
@@ -52,7 +51,7 @@ body{
 button {
     height: 35px;
     border: 0;
-    background-color: #00838f;
+    background-color: gray;
     border-radius: 5px;
     padding: 5px 10px;
     margin-bottom: 5px;
